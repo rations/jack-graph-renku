@@ -1,6 +1,6 @@
 #!/bin/sh
 # build-from-source.sh — build and install JackGraph from source on Haiku.
-# Build/install jack-port-haiku FIRST (the Makefile links -ljack from the
+# Build/install jack-port-renku FIRST (the Makefile links -ljack from the
 # non-packaged tree).
 set -e
 

@@ -2,7 +2,7 @@
 # make-hpkg.sh — build the `jackgraph` .hpkg on a running Haiku (x86_64).
 #
 # The Makefile links -ljack from /boot/system/non-packaged/lib, so build/install
-# jack-port-haiku from source first (build-from-source.sh) to populate that tree.
+# jack-port-renku from source first (build-from-source.sh) to populate that tree.
 set -e
 
 HERE=$(cd "$(dirname "$0")" && pwd)
