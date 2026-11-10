@@ -8,7 +8,7 @@ set -e
 HERE=$(cd "$(dirname "$0")" && pwd)
 ROOT=$(cd "$HERE/.." && pwd)
 VERSION=0.2
-REVISION=1
+REVISION=2
 STAGE="$HERE/stage"
 
 pkgman install -y gcc make haiku_devel || true

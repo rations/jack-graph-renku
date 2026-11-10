@@ -1,10 +1,10 @@
 name			jackgraph
-version			0.2-1
+version			0.2-2
 architecture	x86_64
-summary			"Native Haiku JACK patchbay and server control"
+summary			"JACK patchbay and server control (RenkuOS)"
 description		"A native Interface Kit application to start and stop the JACK server,
 adjust its settings, and view and manage port connections on a graph canvas. The GUI
-front-end for the JACK-on-Haiku stack."
+front-end for the JACK side of the RenkuOS audio stack."
 packager		"rations <ehqcar@proton.me>"
 vendor			"rations"
 copyrights {
@@ -21,5 +21,5 @@ requires {
 	jack
 }
 urls {
-	"https://github.com/rations/jack-graph-haiku"
+	"https://github.com/rations/jack-graph-renku"
 }
